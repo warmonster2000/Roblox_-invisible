@@ -1,4 +1,11 @@
-local player = game.Players.LocalPlayer
+-- Пример скрипта для Delta Roblox
+local Delta = {}
+
+function Delta:Init()
+    print("Delta script initialized!")
+    
+    -- Ваш код здесь
+    local player = game.Players.LocalPlayer
 local character = player.Character or player.CharacterAdded:Wait()
 local enabled = false
 
